@@ -21,7 +21,7 @@ def merge_sort(arr):
     left = merge_sort(arr[:mid])
     right = merge_sort(arr[mid:])
     return merge(left, right)
-
+# to do
 if __name__ == "__main__":
     arr = [38, 27, 43, 3, 9, 82, 10]
     print("Original:", arr)
